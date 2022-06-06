@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- ---- Bài 1 ----  -->
+    <div class="d-flex justify-content-center">
+      <div class="card" style="width: 700px">
+        <div
+          class="card-header bg-danger text-light font-weight-bold text-center"
+        >
+          Bài 1: Tính tiền lương nhân viên
+        </div>
+        <div class="card-body">
+          <div class="row form-group container">
+            <input
+              type="number"
+              class="col-4 mr-3 form-control"
+              id="luong1Ngay"
+              placeholder="Nhập lương một ngày"
+            />
+            <input
+              type="number"
+              class="col-4 form-control"
+              id="soNgayLam"
+              placeholder="Số ngày làm"
+            />
+          </div>
+          <button class="btn btn-danger" id="tinhTien">Tính lương</button>
+        </div>
+        <div class="card-footer text-center">
+          <div id="tienLuong" class="alert alert-primary" role="alert">
+            Lương ở đây, ở đây này !!!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Bài 2 ----  -->
+    <div class="d-flex justify-content-center mt-5">
+      <div class="card" style="width: 700px">
+        <div
+          class="card-header bg-primary text-light font-weight-bold text-center"
+        >
+          Bài 2: Tính giá trị trung bình
+        </div>
+        <div class="card-body">
+          <div class="row form-group container">
+            <input
+              type="number"
+              class="col-3 mr-3 form-control"
+              id="soThu1"
+              placeholder="Nhập số thứ 1"
+            />
+            <input
+              type="number"
+              class="col-3 mr-3 form-control"
+              id="soThu2"
+              placeholder="Nhập số thứ 2"
+            />
+            <input
+              type="number"
+              class="col-3 form-control"
+              id="soThu3"
+              placeholder="Nhập số thứ 3"
+            />
+            <input
+              type="number"
+              class="col-3 mr-3 my-3 form-control"
+              id="soThu4"
+              placeholder="Nhập số thứ 4"
+            />
+            <input
+              type="number"
+              class="col-3 my-3 form-control"
+              id="soThu5"
+              placeholder="Nhập số thứ 5"
+            />
+          </div>
+          <button class="btn btn-danger" id="tinhTBinh">Tính trung bình</button>
+        </div>
+        <div class="card-footer text-center">
+          <div id="trungBinh" class="alert alert-primary" role="alert">
+            Giá trị trung bình ở đây, ở đây này !!!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Bài 3 ----  -->
+    <div class="d-flex justify-content-center mt-5">
+      <div class="card" style="width: 700px">
+        <div
+          class="card-header bg-success text-light font-weight-bold text-center"
+        >
+          Bài 3: Quy đổi tiền
+        </div>
+        <div class="card-body">
+          <div class="row form-group container">
+            <input
+              type="number"
+              class="col-4 mr-3 form-control"
+              id="soUsd"
+              placeholder="Nhập số tiền USD"
+            />
+          </div>
+          <button class="btn btn-danger" id="quyDoi">Quy đổi</button>
+        </div>
+        <div class="card-footer text-center">
+          <div id="tienQuyDoi" class="alert alert-primary" role="alert">
+            Số tiền duy đổi được ở đây, ở đây này !!!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Bài 4 ----  -->
+    <div class="d-flex justify-content-center mt-5">
+      <div class="card" style="width: 700px">
+        <div
+          class="card-header bg-warning text-light font-weight-bold text-center"
+        >
+          Bài 4: Tính diện tích, chu vi hình chữ nhật
+        </div>
+        <div class="card-body">
+          <div class="row form-group container">
+            <input
+              type="number"
+              class="col-4 mr-3 form-control"
+              id="chieuDai"
+              placeholder="Nhập chiều dài"
+            />
+            <input
+              type="number"
+              class="col-4 form-control"
+              id="chieuRong"
+              placeholder="Nhập chiều rộng"
+            />
+          </div>
+          <button class="btn btn-danger" id="tinh">Tính</button>
+        </div>
+        <div class="card-footer text-center">
+          <div id="ketQua" class="alert alert-primary" role="alert">
+            Kết quả ở đây, ở đây này !!!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Bài 5 ----  -->
+    <div class="d-flex justify-content-center mt-5">
+      <div class="card" style="width: 700px">
+        <div
+          class="card-header bg-info text-light font-weight-bold text-center"
+        >
+          Bài 5: Tính tổng 2 ký số
+        </div>
+        <div class="card-body">
+          <div class="row form-group container">
+            <input
+              type="number"
+              class="col-4 mr-3 form-control"
+              id="so"
+              placeholder="Nhập số có 2 chữ số"
+            />
+          </div>
+          <button class="btn btn-danger" id="tinhTong">Tính Tổng</button>
+        </div>
+        <div class="card-footer text-center">
+          <div id="tong2KySo" class="alert alert-primary" role="alert">
+            Tổng 2 ký số ở đây, ở đây này !!!
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
